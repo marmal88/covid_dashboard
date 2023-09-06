@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dashboarding"
+version = "0.0.1"
+description = "Create dashboard using pyenv, poetry, bigquery and dash"
+authors = ["daniel low <danlowgw@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.0"
+dash = "^2.13.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

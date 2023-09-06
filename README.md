@@ -50,3 +50,9 @@ poetry add -G dev pre-commit
 # update poetry dependecies
 poetry update
 ```
+
+### Running python script
+
+```bash
+poetry run python -m src.app
+```
